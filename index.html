@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <picture class="containerLogo">
+      <img
+        class="containerLogo__logo"
+        src="./images/logo.svg"
+        alt="logo principal"
+      />
+    </picture>
+    <h2 class="subtitle">We are launching <b>soon!</b></h2>
+    <p class="paragraph">Subscribe and get notified</p>
+
+    <form class="form" action="">
+      <div class="form__container">
+        <labe for="email"></labe>
+        <input
+          class="form__inputs"
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Your email address.."
+        />
+        <p class="form__warning">Please provide a valid email address</p>
+      </div>
+      <button class="form__button" type="submit">Notify Me</button>
+    </form>
+
+    <picture class="pictureContainer">
+      <img
+        class="pictureContainer__image"
+        src="./images/illustration-dashboard.png"
+        alt="Dashboard description"
+      />
+    </picture>
+
+    <section class="list">
+      <ul class="list__links">
+        <li class="list__links__socialmedia">
+          <img  class="list__links__socialmedia__image"src="./images/icons8-facebook.svg" alt="red social facebook" />
+        </li>
+        <li class="list__links__socialmedia">
+          <img  class="list__links__socialmedia__image" src="./images/icons8-twitter.svg" alt="red social twitter" />
+        </li>
+        <li class="list__links__socialmedia">
+          <img class="list__links__socialmedia__image" src="./images/icons8-instagram.svg" alt="red social instagram" />
+        </li>
+      </ul>
+    </section>
+
+  
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
